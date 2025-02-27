@@ -10,7 +10,7 @@
     <script src="main.js" defer></script>
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1 class="logo">fragrancesampoles.com</h1>
         <nav>
             <ul>
@@ -21,7 +21,8 @@
         </nav>
     </header>
 
-    <section class="hero">
+    <section class="hero" style="background-image: url('images/background.jpg');">
+        <div class="overlay"></div>
         <div class="hero-content">
             <h2>Discover Premium Fragrances</h2>
             <p>Exclusive decants from top brands delivered to your door.</p>
@@ -29,8 +30,28 @@
         </div>
     </section>
 
+    <section class="featured-products">
+        <h2>Featured Decants</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="images/valentino.png" alt="Valentino" class="product-image">
+                <h3>Valentino Uomo</h3>
+                <p>Bold and sophisticated with notes of leather and coffee.</p>
+                <button class="buy-now">Buy Now</button>
+            </div>
+            <div class="product-card">
+                <img src="images/jpg_le_beau.png" alt="JPG Le Beau" class="product-image">
+                <h3>Jean Paul Gaultier Le Beau</h3>
+                <p>Fresh and sensual with coconut wood and tonka bean.</p>
+                <button class="buy-now">Buy Now</button>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2025 fragrancesampoles.com | All rights reserved.</p>
+        <div class="footer-content">
+            <p>&copy; 2025 fragrancesampoles.com | All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
